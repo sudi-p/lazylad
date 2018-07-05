@@ -1,0 +1,65 @@
+.menu {
+  padding-top: 20px;
+  background-color: #fff;
+  text-align: center; }
+  @media only screen and (max-width: 767px) {
+    .menu .info-wrapper .ant-affix {
+      top: 0px !important; } }
+  .menu .info-wrapper .restaurant {
+    width: 95%;
+    margin: auto;
+    font-weight: bold;
+    position: relative; }
+    .menu .info-wrapper .restaurant-wrapper {
+      font-size: 20px;
+      margin-bottom: 30px;
+      background-color: #fff;
+      padding: 20px;
+      text-align: left;
+      -webkit-box-shadow: 0px 11px 16px 8px rgba(219, 216, 219, 0.53);
+      -moz-box-shadow: 0px 11px 16px 8px rgba(219, 216, 219, 0.53);
+      box-shadow: 0px 11px 16px 8px rgba(219, 216, 219, 0.53); }
+      @media only screen and (max-width: 767px) {
+        .menu .info-wrapper .restaurant-wrapper {
+          margin-bottom: 10px; } }
+  .menu .info-wrapper .order_button {
+    width: 200px;
+    background-color: #124E78;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+    @media only screen and (max-width: 575px) {
+      .menu .info-wrapper .order_button {
+        width: max-content; } }
+  .menu .info-wrapper .dishes {
+    max-width: 1000px;
+    margin: auto !important; }
+  .menu .ant-tabs-card .ant-tabs-nav-container {
+    height: 50px !important; }
+  .menu .ant-tabs-card .ant-tabs-content {
+    margin-top: 0; }
+    .menu .ant-tabs-card .ant-tabs-content .ant-tabs-tabpane {
+      padding: 0; }
+  .menu .ant-tabs-card .ant-tabs-tab {
+    height: 50px;
+    width: 200px;
+    padding-top: 5px !important;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid #e8e8e8 !important;
+    color: #245091;
+    letter-spacing: 1px;
+    font-weight: bold !important; }
+  .menu .ant-tabs-card .ant-tabs-bar {
+    border-color: #e8e8e8;
+    margin: 0; }
+  .menu .ant-tabs-card .ant-tabs-tab:hover {
+    color: #245091; }
+  .menu .ant-tabs-card .ant-tabs-tab-active {
+    color: #245091 !important;
+    border-bottom: none !important; }

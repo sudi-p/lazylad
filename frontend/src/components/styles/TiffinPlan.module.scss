@@ -1,0 +1,84 @@
+
+.tiffin-plans{
+  section{
+    padding: 30px;
+  }
+  .restaurant-header{
+    margin-bottom: 30px;
+    padding: 10px;
+    width: auto;
+    .cover-image{
+      background-image: url('http://res.cloudinary.com/dtqxwjmwn/image/upload/v1527821438/main.jpg');
+      height: 200px;
+      width:100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity:0.25;
+      position:absolute;
+      top:0;
+      left:0;
+    }
+    .header-wrapper{
+      display: table;
+      border-spacing: 10px 0;
+      margin-left: 20px;
+    }
+    .logo{
+      display: table-cell;
+      img{
+        height: 100px
+      }
+    }
+    .info-wrapper{
+      display: table-cell;
+      vertical-align: top;
+    }
+    .title{
+      letter-spacing: 1px;
+      color: black;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+  }
+  .menu{
+    border: 3px solid brown;
+    width: 80%;
+    margin: auto;
+    &-header{
+      font-weight: bold;
+      width:100%;
+      text-align: center;
+      font-size: 25px;
+    }
+    .dish-card{
+      display: table;
+      border-spacing: 10px 0;
+      .card{
+        display: table-cell;
+      }
+      .title{
+        font-weight: bold;
+      }
+      .day{
+        display: table-cell;
+      }
+    }
+  }
+  .order{
+    width:100%;
+    text-align: center;
+  }
+  .location{
+    padding-top:60px;
+    padding-bottom:10px;
+    .icon{
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: black;
+    }
+    .address{
+      font-weight: bold;
+      color: black;
+    }
+  }
+}
