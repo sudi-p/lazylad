@@ -1,0 +1,238 @@
+.settings{
+	padding: 30px 90px;
+	color: #0009;
+	&--large{
+		@media only screen and (max-width: 767px){
+			display: none;
+		}
+	}
+	&--small{
+		padding: 10px;
+		@media only screen and (min-width: 768px){
+			display: none;
+		}
+	}
+	.setting{
+		position: relative;
+	}
+	.title{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	&_header{
+		a{
+			color: #303236;
+		}
+		a:hover {
+	    text-decoration: none;
+	    color: #000;
+	  }
+	  a:link {
+	    text-decoration: none;
+	    color: #303236;
+	  }
+		.menu-item{
+			padding: 20px 20px;
+			font-size: 15px;
+			width: 100%;
+			background-color: inherit;
+			letter-spacing: 0.5px;
+		}
+		.active-item{
+			background-color: #bbb3;
+			font-weight: bold;
+		}
+	}
+	.content{
+		padding: 10px 0 0 70px;
+		position: relative;
+		@media only screen and (max-width: 767px){
+			padding: 10px;
+		}
+		&--title{
+			font-size: 22px;
+		}
+		.edit-button{
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			width: max-content;
+			.button{
+				padding: 10px 20px;
+			}
+		}
+	}
+}
+.info{
+	padding: 10px;
+	display: flex;
+	width: 100%;
+	@media only screen and (max-width: 767px){
+		display: block;
+		padding: 5px;
+	}
+	&-label{
+		flex:1;
+		background-image: url('http://res.cloudinary.com/dtqxwjmwn/image/upload/v1535613753/dot.png');
+		background-repeat: repeat-x;
+		background-position-y: center;
+		letter-spacing: 1px;
+		@media only screen and (max-width: 767px){
+			background: none;
+			font-weight: bold;
+		}
+		&--white{
+			background-color: #fafafa;
+			width: max-content;
+			padding: 0 0 0 10px;
+			text-transform: uppercase;
+			@media only screen and (max-width: 400px){
+				text-transform: none;
+			}
+		}
+	}
+	&-value{
+		flex:1;
+		padding: 0 10px;
+		@media only screen and (max-width: 400px){
+			width: 99%;
+		}
+	}
+}
+
+.support{
+	.title{
+		color: #000;
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.contact{
+		&-info{
+			display: flex;
+			justify-content: space-between;
+			flex-flow: row wrap;
+			margin: 30px 0;
+			@media only screen and (max-width: 767px){
+				display: block;
+			}
+		}
+		&-box{
+			padding: 20px;
+			background-color: #eaeaea96;
+			width:49%;
+			@media only screen and (max-width: 767px){
+				width:99%;
+				margin: auto;
+				margin-bottom: 10px;
+			}
+			&_title{
+				font-weight: bold;
+				font-size: 19px;
+				padding: 15px 0;
+				letter-spacing: 1px;
+			}
+			&_value{
+				font-weight: bold;
+				font-size: 15px;
+				padding: 10px 0;
+				letter-spacing: 1px;
+			}
+			&_description{
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+.settings-modal{
+	position: relative;
+	.ant-modal-title{
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.modal-footer{
+		display: flex;
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		.button{
+			width: max-content;
+			padding: 10px;
+			text-transform: uppercase;
+			@media only screen and (max-width: 400px){
+				text-transform: none;
+			}
+		}
+		.cancel{
+			color: black;
+			margin-right: 30px;
+			position: relative;
+			top: 10px;
+			cursor: pointer;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+	.ant-modal-content{
+		padding-bottom: 30px;
+	}
+	.StripeElement {
+    display: block;
+    width: 98%;
+    max-width: 500px;
+    padding: 10px 14px;
+    font-size: 1em;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.05) inset;
+    border: 1px solid #d8d4d4;
+    outline: 0;
+    border-radius: 4px;
+    background: white;
+    &:placeholder {
+      color: #aab7c4;
+    }
+    &:focus,
+    .StripeElement--focus {
+      box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+      -webkit-transition: all 150ms ease;
+      transition: all 150ms ease;
+    }
+  }
+.stripe{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #bbb;
+  }
+	input,
+  .StripeElement {
+    display: block;
+    width: 98%;
+    max-width: 500px;
+    padding: 10px 14px;
+    font-size: 1em;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.05) inset;
+    border: 1px solid #d8d4d4;
+    outline: 0;
+    border-radius: 4px;
+    background: white;
+    &:placeholder {
+      color: #aab7c4;
+    }
+    &:focus,
+    .StripeElement--focus {
+      box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+      -webkit-transition: all 150ms ease;
+      transition: all 150ms ease;
+    }
+  }
+}
+
+.toggle-recurrence{
+	text-decoration: underline;
+	color: #303236;
+	text-transform: uppercase;
+	cursor: pointer;
+}

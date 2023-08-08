@@ -1,0 +1,81 @@
+.header{
+	&--small{
+		width: 320px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom:0;
+    z-index: 999;
+    padding: 10px;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    .ant-divider{
+      margin: 5px 0;
+    }
+    a {
+      display: block;
+      font-weight: 400;
+      color: #0f346c;
+      text-decoration: none;
+    }
+    a.active_item {
+      color: #000;
+      font-weight: 600;
+    }
+    a:hover {
+      text-decoration: none;
+      color: #6a6d75;
+    }
+    a:link {
+      text-decoration: none;
+      color: #6a6d75;
+    }
+    .menu-item{
+      padding: 10px;
+      letter-spacing: 1px;
+      color: #0f346c;
+      .welcome{
+        color: black;
+        font-size: 15px;        
+      }
+      &_large{
+        font-size:17px;
+        color: #0f346c;
+      }
+      &_small{
+        font-size: 13px;
+        color: #0f346c;
+      }
+    }
+		&nav{
+			height: 50px;
+			background-color: #ececec;
+			.redlentils{
+        position: absolute;
+        top: 5px;
+        margin-left: 20px;
+        a{
+          font-size: 25px;
+          color:#0f346c;
+        }
+      }
+      @media only screen and (min-width: 768px){
+        display: none;
+      }
+      .hamburger{
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+      }
+		}
+		&--wrapper{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: #ffffff3d;
+      z-index: 100;
+    }
+	}
+}

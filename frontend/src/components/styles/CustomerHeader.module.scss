@@ -1,0 +1,90 @@
+.customer_header{
+	background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 1px solid #e5e5e6;
+  @media only screen and (max-width: 767px){
+    display: none;
+  }
+  &--wrapper{
+    height: 78px;
+    @media only screen and (max-width: 767px){
+      display: none;
+    }
+  }
+	.container{
+		padding: 0 50px;
+		display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    position: relative;
+	}
+	.menu-wrapper{
+    padding-left: 30px;
+    display: flex;
+  }
+	.menu-items{
+		display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    padding: 30px 10px;
+    &--right{
+    	position: absolute;
+    	right: 50px;
+      p{
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+      p::first-letter{
+        text-transform: uppercase;
+      } 
+    }
+		.menu-item{
+			padding: 0 20px;
+			font-size: 15px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+		}
+	}
+	a {
+    display: block;
+    font-weight: 400;
+    color: #6a6d75;
+    text-decoration: none;
+  }
+  a.active_item {
+    color: #0f346c;
+    font-weight: 600;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #6a6d75;
+  }
+  a:link {
+    text-decoration: none;
+    color: #6a6d75;
+  }
+  
+}
+.ant-dropdown-menu{
+  font-family: inherit !important;
+  .ant-dropdown-menu-item{
+    padding: 6px 40px 6px 10px !important;
+    
+    span, a{
+      font-weight: 500;
+      color: #0f346c !important;
+      font-size: 14px;
+      letter-spacing: 1px;
+      &:hover {
+        color: white !important;
+      }
+    }
+    &:hover{
+      background-color: #0f346c !important;
+    }
+  }
+}
+

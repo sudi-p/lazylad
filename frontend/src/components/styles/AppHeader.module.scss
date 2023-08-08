@@ -1,0 +1,19 @@
+.header {
+  height: 100vh;
+  background-color: #3B4047;
+  ul{
+    list-style: none;
+  }
+  .title {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding: 30px;
+  }
+  .menu {
+    background-color: #3B4047;
+  }
+  .header-item {
+    text-transform: uppercase;
+  }
+}

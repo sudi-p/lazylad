@@ -1,0 +1,124 @@
+.form .form-item {
+  padding: 5px;
+  margin-bottom: 20px;
+  position: relative; }
+  .form .form-item__label {
+    color: #585757;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 2.2;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    display: block;
+    margin-bottom: 5px; }
+  .form .form-item__error {
+    color: red; }
+
+.form_error {
+  background-color: #d64148;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  letter-spacing: 1px; }
+
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 8px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer; }
+  .button--facebook {
+    background-color: #0f346c;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px; }
+    .button--facebook:hover {
+      background-color: #2b5390; }
+  .button--facebook2 {
+    border: 1px solid #0f346c;
+    background-color: #ffffff;
+    color: #0f346c;
+    margin-bottom: 10px;
+    font-size: 17px;
+    letter-spacing: 2px; }
+    .button--facebook2:hover {
+      border: 1px solid #000; }
+  .button--blue {
+    border-radius: 2px;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    box-sizing: content-box;
+    font-size: 14px;
+    line-height: 47.88px;
+    padding: 0 70px;
+    display: inline-block;
+    text-decoration: none;
+    border: 0px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    background-color: #114e77;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; }
+    @media only screen and (max-width: 575px) {
+      .button--blue {
+        padding: 0 20px; } }
+  .button--dark {
+    background-color: #0f346c;
+    color: white; }
+    .button--dark:hover {
+      background-color: #2b5390; }
+  .button--light {
+    border: 1px solid #bbb;
+    color: #0f346c; }
+    .button--light:hover {
+      border: 1px solid #0f346c; }
+
+.input {
+  display: block;
+  width: 98%;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: 'Source Code Pro', monospace;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05) inset;
+  border: 1px solid #d8d4d4;
+  outline: 0;
+  border-radius: 4px;
+  background: white; }
+  .input:placeholder {
+    color: #aab7c4; }
+  .input:focus,
+  .input .StripeElement--focus {
+    box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease; }
+
+.loading {
+  height: 79vh;
+  color: white;
+  font-size: 30px;
+  background-color: #fafaf5;
+  width: 100%;
+  background-position: center;
+  background-image: url("https://i.imgur.com/EATfJf4.gif");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.logo {
+  height: 68px;
+  width: 100px;
+  background-image: url("http://res.cloudinary.com/dtqxwjmwn/image/upload/v1531475193/real_logo2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  left: 10px; }

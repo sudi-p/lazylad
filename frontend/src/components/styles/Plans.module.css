@@ -1,0 +1,86 @@
+.plans {
+  width: 745px;
+  margin: auto; }
+  @media only screen and (max-width: 767px) {
+    .plans {
+      width: 350px; } }
+  @media only screen and (max-width: 350px) {
+    .plans {
+      width: 300px; } }
+  .plans .ant-card-body {
+    padding: 0;
+    padding-bottom: 20px; }
+  .plans .plan_card {
+    margin: 20px 0;
+    text-align: center;
+    border: none;
+    width: 350px;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2) !important;
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2) !important; }
+    .plans .plan_card:hover {
+      -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3) !important;
+      -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3) !important;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3) !important; }
+    @media only screen and (max-width: 355px) {
+      .plans .plan_card {
+        height: max-content;
+        margin-bottom: 0;
+        width: 300px; } }
+    @media only screen and (max-width: 767px) {
+      .plans .plan_card {
+        height: max-content;
+        margin-bottom: 0;
+        padding-top: 5px; } }
+    .plans .plan_card .plan_title--primary {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 1.2;
+      color: #333333;
+      letter-spacing: 1px; }
+      @media (min-width: 768px) and (max-width: 992px) {
+        .plans .plan_card .plan_title--primary {
+          font-size: 20px; } }
+    .plans .plan_card .number-of-meals {
+      margin-top: 15px; }
+    .plans .plan_card .plan_cardcover {
+      width: 100%;
+      height: 225px;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 20px; }
+      @media only screen and (max-width: 767px) {
+        .plans .plan_card .plan_cardcover {
+          display: none; } }
+      @media (min-width: 768px) and (max-width: 992px) {
+        .plans .plan_card .plan_cardcover {
+          height: 180px; } }
+    .plans .plan_card .dpw {
+      padding: 15px 15px 30px 15px;
+      font-weight: 200;
+      letter-spacing: 1px; }
+    .plans .plan_card .price-wrapper {
+      width: 95%;
+      margin: auto;
+      margin-top: 15px; }
+    .plans .plan_card .price {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 1;
+      margin-bottom: 2px; }
+      @media (min-width: 768px) and (max-width: 992px) {
+        .plans .plan_card .price {
+          font-size: 17px; } }
+    .plans .plan_card .for {
+      font-size: 12px; }
+    .plans .plan_card .ant-radio-button-wrapper-checked {
+      color: white !important;
+      background-color: #124E78;
+      border-color: #124E78;
+      box-shadow: none !important; }
+    .plans .plan_card .button_wrapper {
+      margin-top: 20px;
+      width: 95%;
+      margin: auto; }
+    .plans .plan_card .ant-radio-button-wrapper:hover {
+      color: #bbb !important; }

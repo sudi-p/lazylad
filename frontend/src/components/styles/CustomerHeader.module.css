@@ -1,0 +1,70 @@
+.customer_header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 1px solid #e5e5e6; }
+  @media only screen and (max-width: 767px) {
+    .customer_header {
+      display: none; } }
+  .customer_header--wrapper {
+    height: 78px; }
+    @media only screen and (max-width: 767px) {
+      .customer_header--wrapper {
+        display: none; } }
+  .customer_header .container {
+    padding: 0 50px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    position: relative; }
+  .customer_header .menu-wrapper {
+    padding-left: 30px;
+    display: flex; }
+  .customer_header .menu-items {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    padding: 30px 10px; }
+    .customer_header .menu-items--right {
+      position: absolute;
+      right: 50px; }
+      .customer_header .menu-items--right p {
+        font-size: 16px;
+        letter-spacing: 1px; }
+      .customer_header .menu-items--right p::first-letter {
+        text-transform: uppercase; }
+    .customer_header .menu-items .menu-item {
+      padding: 0 20px;
+      font-size: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
+  .customer_header a {
+    display: block;
+    font-weight: 400;
+    color: #6a6d75;
+    text-decoration: none; }
+  .customer_header a.active_item {
+    color: #0f346c;
+    font-weight: 600; }
+  .customer_header a:hover {
+    text-decoration: none;
+    color: #6a6d75; }
+  .customer_header a:link {
+    text-decoration: none;
+    color: #6a6d75; }
+
+.ant-dropdown-menu {
+  font-family: inherit !important; }
+  .ant-dropdown-menu .ant-dropdown-menu-item {
+    padding: 6px 40px 6px 10px !important; }
+    .ant-dropdown-menu .ant-dropdown-menu-item span, .ant-dropdown-menu .ant-dropdown-menu-item a {
+      font-weight: 500;
+      color: #0f346c !important;
+      font-size: 14px;
+      letter-spacing: 1px; }
+      .ant-dropdown-menu .ant-dropdown-menu-item span:hover, .ant-dropdown-menu .ant-dropdown-menu-item a:hover {
+        color: white !important; }
+    .ant-dropdown-menu .ant-dropdown-menu-item:hover {
+      background-color: #0f346c !important; }

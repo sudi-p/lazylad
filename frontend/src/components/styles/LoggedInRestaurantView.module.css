@@ -1,0 +1,11 @@
+.restaurant {
+  display: flex; }
+  .restaurant .sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #3B4047;
+    padding: 30px; }
+    .restaurant .sidebar .title {
+      color: white;
+      font-size: 26px;
+      font-weight: bold; }

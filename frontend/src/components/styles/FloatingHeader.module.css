@@ -1,0 +1,85 @@
+.floating_header {
+  height: 68px; }
+  .floating_header a {
+    display: block;
+    font-weight: 400;
+    color: #6a6d75;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-decoration: none; }
+  .floating_header a.active_item {
+    color: #0f346c;
+    font-weight: 600; }
+  .floating_header a:hover {
+    text-decoration: none;
+    color: #6a6d75; }
+  .floating_header a:link {
+    text-decoration: none;
+    color: #6a6d75; }
+  .floating_header .redlentils {
+    color: #F74D11;
+    letter-spacing: 1px;
+    font-size: 24px;
+    line-height: 1; }
+  .floating_header .header--small {
+    display: none;
+    padding: 30px; }
+    @media only screen and (max-width: 767px) {
+      .floating_header .header--small {
+        display: block; } }
+    .floating_header .header--small .hamburger {
+      font-size: 30px;
+      position: absolute;
+      right: 20px;
+      top: 10px; }
+    .floating_header .header--small .header-wrapper {
+      position: relative; }
+    .floating_header .header--small .menu-icon {
+      position: absolute;
+      right: 30px;
+      bottom: 0;
+      font-size: 30px; }
+    .floating_header .header--small .container {
+      position: relative; }
+    .floating_header .header--small .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px; }
+  .floating_header .header {
+    background: white;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #e5e5e6;
+    padding: 10px 0;
+    height: 68px;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    position: fixed; }
+    @media only screen and (max-width: 767px) {
+      .floating_header .header {
+        display: none; } }
+    .floating_header .header .welcome {
+      color: green; }
+    .floating_header .header .container {
+      margin: auto;
+      margin-top: 14px;
+      max-width: 1000px;
+      padding: 0 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .floating_header .header .container .menu_items {
+        margin-left: 0px;
+        padding-left: 0px;
+        display: flex;
+        flex-flow: row wrap;
+        flex-direction: row; }
+        .floating_header .header .container .menu_items .menu_item {
+          padding: 0 16px; }
+      @media only screen and (max-width: 600px) {
+        .floating_header .header .container {
+          justify-content: center; } }
+  @media only screen and (max-width: 767px) {
+    .floating_header {
+      height: max-content; } }

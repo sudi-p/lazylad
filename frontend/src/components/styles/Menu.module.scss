@@ -1,0 +1,225 @@
+.menu{
+	background-color: #fff;
+	text-align: center;
+	@media only screen and (max-width: 575px){
+		display: none;
+	}
+	&-small{
+		@media (min-width: 575px){
+			display: none;
+		}
+		.header{
+			display: flex;
+			height: 60px;
+			margin-bottom: 10px;
+			background-color: white;
+			.week{
+				width: 80%;
+			}
+			.arrow_wrapper{
+				height: 100%;
+				width: 10%;
+				font-size: 20px;
+				font-weight: bold;
+				padding-top: 15px;
+				text-align: center;
+				&--right{
+					border-left: 1px solid #bbb;
+				}
+				&--left{
+					border-right: 1px solid #bbb;
+				}
+			}
+		}
+	}
+	.info-wrapper{
+		.ant-affix{
+			@media only screen and (max-width:767px){
+				top: 0px !important;
+			}
+		}
+		.dishes{
+			max-width: 1000px;
+			margin: auto !important;
+		}
+	}
+}
+.menu-header{
+	padding: 10px;
+	@media only screen and (max-width: 575px){
+		padding: 1px;
+	}
+	&--large{
+		@media only screen and (max-width: 575px){
+			display: none;
+		}
+	}
+	&--small{
+		@media only screen and (min-width: 576px){
+			display: none;
+		}
+	}
+	&-wrapper{
+		margin-bottom:30px;
+		background-color: #fff;
+		padding: 12px;
+		text-align: left;
+		position: relative;
+		-webkit-box-shadow: 0px 11px 16px 8px rgba(219,216,219,0.53);
+		-moz-box-shadow: 0px 11px 16px 8px rgba(219,216,219,0.53);
+		box-shadow: 0px 11px 16px 8px rgba(219,216,219,0.53);
+		@media only screen and (max-width:767px){
+			margin-bottom:10px;
+		}
+	}
+	&--options{
+		position: absolute;
+		right: 10px;
+		top: 15px;
+		z-index: 9;
+		display: flex;
+		font-size: 14px;
+		font-weight: bold;
+		@media only screen and (max-width: 575px){
+			background-color: #fff;
+			position: fixed;
+			bottom: 0;
+			top: auto;
+			width: 100%;
+			padding: 5px;
+			font-size: 12px;
+			padding-left: 30px;
+		}
+		&wrapper{
+			width: max-content;
+			margin: auto;
+			display: flex;
+			background-color: #fff;
+		}
+		&text{
+			padding: 10px;
+			font-weight: 200;
+			@media only screen and (max-width:575px){
+				color: #2b5390;
+				padding: 10px;
+				font-weight: bold;
+			}
+		}
+		.button{
+			width: max-content;
+			margin-right: 10px;
+			padding: 10px 30px;
+			@media only screen and (max-width:767px){
+				padding:10px;
+			}
+		}
+		.cancel-button{
+			border: 1px solid white;
+			@media only screen and (max-width:575px){
+				color: #2b5390;
+				border: 2px solid #2b5390;
+			}
+		}
+		.save-button{
+			color: #fff;
+			background-color: #ea6060;
+		}
+	}
+	&--change{
+		color: white;
+		background-color: #2b63aa;
+		text-transform: uppercase;
+		padding: 20px;
+		text-align: left;
+		margin-bottom: 10px;
+		z-index: 8;
+		position: relative;
+		@media only screen and (max-width:575px){
+			text-align: center;
+			padding: 10px 0;
+			position: absolute;
+			width: 100vw;
+		}
+	}
+}
+.arrival-information{
+	display: flex;
+	@media only screen and (max-width: 575px){
+		padding-top: 5px;
+	}
+	.arrival{
+	  &_icon{
+	    font-weight: bold;
+	    font-size: 25px;
+	    margin-right: 10px;
+	    position: relative;
+	    top: 8px;
+	    @media only screen and (max-width: 575px){
+	  		font-size: 25px;
+			   margin-right: 5px;
+				top: 4px;
+	  	}
+	    &--check{
+	      color: green;
+	    }
+	    &--close{
+	      color: red;
+	    }
+	  }
+	  &_status{
+	    color: #bbb;
+	    display: block;
+	    font-size: 18px;
+	    font-weight: 200;
+	    @media only screen and (max-width: 575px){
+	    	font-size:16px;
+	    }
+	  }
+	  &_week{
+	  	font-weight: bold;
+	  	font-size: 20px;
+	  	@media only screen and (max-width: 575px){
+	  		font-size:18px;
+	  	}
+	  }
+	}
+}
+.bill{
+	background-color: white;
+	text-align: center;
+	padding: 200px;
+	height: max-content;
+	width: 100%;
+	opacity: 1;
+	z-index: 10;
+	&-wrapper{
+		height: 100vh;
+		width: 100%;
+		position: absolute;
+		left:0;
+		top: 97px;
+		z-index: 9;
+		opacity: 0.5;
+		background-color: white;
+	}
+	&-modal{
+		width: 50% !important;
+		.right{
+			position: absolute;
+			right: 50px;
+		}
+	}
+}
+.skip{
+	&_footer{
+		display: flex;
+		text-align: center;
+		width: max-content;
+		margin: auto;
+		margin-top: 10px;
+		.button{
+			width: 100px;
+			margin-right: 20px;
+		}
+	}
+}

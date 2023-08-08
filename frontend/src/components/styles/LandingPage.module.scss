@@ -1,0 +1,443 @@
+.landing{
+  background: #fafafa;
+  section{
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    @media only screen and (max-width:767px){
+      padding: 10px;
+    }
+  }
+  .section{
+    margin-top: 30px;
+    &_header{
+      margin-bottom: 20px;
+      &--primary{
+        display: block;
+        font-size: 32px;
+        font-weight: 400;
+        color: #7C7F86;
+      }
+      &--secondary{
+        font-size: 14px
+      }
+    }
+  }
+  .hero{
+    max-height: 512px;
+    margin: auto;
+    position:relative;
+    .content {
+      background: linear-gradient(
+        to right,
+          rgba(0, 0, 0, 0.70), 
+          rgba(0, 0, 0, 0.30)
+        ),
+        no-repeat center,
+        url("https://www.sukhadia.com/media/catalog/product/cache/image/beff4985b56e3afdbeabfc89641a4582/c/h/chapati__roti__tray.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      .hero-text{
+        max-width: 1000px;
+        margin: auto;
+        padding-top: 110px;
+        @media only screen and (max-width: 575px){
+          padding: 40px 10px;
+        }
+      }
+      .info-wrapper{
+        width: 700px;
+        margin: auto;
+        text-align: center;
+        z-index: 10;
+        @media only screen and (max-width: 767px){
+          width: 100%;
+        }
+      }
+      .title-primary{
+        color: white;
+        font-size: 40px;
+        letter-spacing: 2px;
+        line-height: 1.25;
+        @media only screen and (max-width: 575px){
+          font-size: 25px;
+        }
+        font-weight: 500;
+      }
+      .input-wrapper{
+        width: 464px;
+        margin: auto;
+        margin-top: 40px;
+        @media only screen and (max-width: 767px){
+          width: 80%;
+        }
+        padding-bottom: 100px;
+      }
+      .ant-input-group-addon{
+        background-color: #F74D11;
+        border: 1px solid #F74D11;
+      }
+      .ant-input{
+        height: 50px !important;
+        border-radius: 0;
+      }
+      .search-icon{
+        color:white;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100%;
+      }
+    }
+  }
+  .pricing{
+    padding-top: 50px;
+    margin:auto;
+    @media only screen and (max-width: 767px){
+      padding-top: 10px;
+    }
+  }
+  .featured-menu{
+    text-align: center;
+    padding-top: 50px;
+    @media only screen and (max-width: 767px){
+      padding-top: 0px;
+    }
+    
+    .button_wrapper{
+      width: 333px;
+      margin: 20px auto 70px auto;
+      @media only screen and (max-width: 767px){
+        margin: 30px auto 50px auto;
+        width: 80%;
+      }
+    }
+    .restaurant-wrapper{
+      text-align: left;
+      padding-bottom: 25px;
+      @media only screen and (max-width: 575px){
+        text-align: center;
+      }
+    }
+    .restaurant{
+      color: #124E78;
+      font-size: 24px;
+      padding-left: 10px;
+      padding-bottom: 21px;
+    }
+    .dishes{
+      margin: auto;
+    }
+    .view-more{
+      position: absolute;
+      bottom: 0;
+      right: 7px;
+    }
+  }
+  .why{
+    background-color: #124E78;
+    color: #ffffff;
+    padding: 85px 0 99px 0;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    @media only screen and (max-width: 767px){
+      padding: 35px 0 35px 0;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .container{
+      max-width: 1000px;
+      margin: auto;
+    }
+    .text-wrapper{
+      text-align: center;
+      width: 673px;
+      margin: auto;
+      @media only screen and (max-width: 767px){
+        width: 90%;
+      }
+    }
+    .title{
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 40px;
+      @media only screen and (max-width: 767px){
+        font-size: 32px;
+      }
+    }
+    .content{
+      line-height: 28px;
+      letter-spacing: 0;
+      font-size: 20px;
+      padding: 10px 0;
+      @media only screen and (max-width: 767px){
+        font-size: 16px;
+      }
+    }
+  }
+  .process{
+    text-align: center;
+    padding-top: 50px;
+    @media only screen and (max-width: 767px){
+      padding-top: 25px;
+    }
+    .text-wrapper{
+      text-align: left;
+      @media only screen and (max-width:767px){
+        text-align: center;
+      }
+    }
+    .button_wrapper{
+      width: 330px;
+      margin: 70px auto;
+      @media only screen and (max-width: 767px){
+        margin: 30px auto 50px auto;
+        width: 80%;
+      }
+    }
+    .step-card{
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      padding-top: 50px;
+      margin-bottom: 10px;
+      width:95%;
+      @media only screen and (max-width:767px){
+        padding: 5px;
+        text-align: left;
+        display: table;
+        border-spacing: 15px 0;
+        margin-bottom: 10px;
+        height: max-content;
+      }
+      @media (min-width:768px) and (max-width:991px){
+        width:90%;
+      }
+      &__title{
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 30px;
+        color: #f74d11;
+        @media only screen and (max-width:767px){
+          font-size: 20px;
+          margin-bottom: 7px;
+        }
+      }
+      &__description{
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #726c74;
+        letter-spacing: 1px;
+        @media only screen and (max-width:767px){
+          font-size: 15px;
+          margin-bottom: 7px;
+        }
+      }
+      &__url{
+        font-weight: bold;
+        @media only screen and (max-width:767px){
+          font-size: 13px; 
+        }
+      }
+      .process-image{
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 369px;
+        height: 300px;
+        @media only screen and (max-width:767px){
+          display: none; 
+        }
+        @media (min-width:768px) and (max-width:991px){
+          width: 307px;
+          height: 250px;
+        }
+      }
+      .circle{
+        border-radius: 50%;
+        background-color: #1890ff;
+        color: white;
+        font-size: 32px;
+        height: 57px;
+        width: 57px;
+        text-align: center;
+        margin: auto;
+        line-height: 1.8;
+        @media only screen and (max-width:767px){
+          float:left;
+          display: table-cell;
+          font-size: 25px;
+          height: 38px;
+          width: 38px;
+          line-height: 1.5;
+        }
+      }
+      .text{
+        @media only screen and (max-width:767px){
+          display: table-cell;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+  .reviews{
+    background-color: white;
+    .carousel-wrapper{
+      width: 60%;
+      margin: auto;
+      @media only screen and (max-width:767px){
+        width: 90%;
+      }
+      @media (min-width:768px) and (max-width:992px){
+        width: 90%;
+      }
+      .ant-carousel .slick-slide {
+        height: max-content;
+        width: 100%;
+        line-height: 15px;
+        background: #f8f9fa;
+        overflow: hidden;
+        z-index: 3;
+        @media only screen and (max-width:767px){
+          height: 450px;
+        }
+      }
+      .ant-carousel button{
+        color:red;
+      }
+      .item{
+        .review-image{
+          height: 500px;
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+          @media only screen and (max-width:767px){
+            height: 300px;
+          }
+        }
+        .info-wrapper{
+          padding: 20px 20px;
+          text-align: left;
+          .username{
+            padding-left: 5px;
+            color: #0f346c;
+            font-size:15px;
+            font-weight: bold;
+          }
+          .user_photo{
+            border-radius: 50%;
+            height: 45px;
+            width: 45px;
+            display: inline;
+            @media only screen and (max-width:767px){
+              margin-top: 10px;
+            }
+          }
+          .comment{
+            margin-top: 10px;
+            letter-spacing: 1px;
+            line-height: 1.5;
+          }
+        }
+        img{
+          width: 100%;
+        }
+      }
+    } 
+  }
+  .convenience{
+    background-color: #efecec;
+    .item{
+      display:table;
+      padding-bottom:30px;
+      border-spacing: 10px 0;
+      @media only screen and (max-width:767px){
+        text-align: center;
+        padding-bottom:20px;
+      }
+      &_icon{
+        display:table-cell;
+      }
+      &_text{
+        display:table-cell;
+        text-align: left;
+        &--primary{
+          display:block;
+          color: #1890ff;
+          font-weight: bold;
+          font-size:17px;
+        }
+      }
+    }
+  }
+  .mobile-app{
+    background-color: #fafafa;
+    height: 475px;
+    padding-top: 20px;
+    @media only screen and (max-width: 767px){
+      height: max-content;
+    }
+    .mobile{
+      padding-bottom: 0px;
+      img{
+        height:455px;
+        width: 330px;
+        @media only screen and (max-width: 767px){
+          height : 300px;
+          width: 215px;
+        }
+      }
+    }
+    .app-link{
+      padding-top : 11%;
+      text-align: center;
+      @media only screen and (max-width: 767px){
+        padding-top : 10px;
+      }
+      .google{
+        margin-left: 10px;
+      }
+      .topic{
+        font-size:30px;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .personalizedplans{
+    background-color: #e8e6e6;
+    .inner-box{
+      height: 100%;
+    }
+    .image{
+      background-image : url('http://willtravelforfood.com/wp-content/uploads/2016/10/le-super-qualite-indian-restaurant-montreal.jpg');
+      height: 90%;
+      width: 250px;
+      background-size: cover;
+      background-position: center;
+      float: left;
+      position: relative;
+      right: 120px;
+      top: 5%;
+      @media only screen and (max-width: 767px){
+        display:none;
+      }
+    }
+    .plans{
+      padding: 30px;
+      background-color: white;
+      &_wrapper{
+        text-align: center;
+      }
+    }
+    .plan{
+      padding: 20px;
+      @media only screen and (max-width: 767px){
+        padding: 10px;
+      }
+    }
+  }
+}

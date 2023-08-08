@@ -1,0 +1,198 @@
+.settings {
+  padding: 30px 90px;
+  color: #0009; }
+  @media only screen and (max-width: 767px) {
+    .settings--large {
+      display: none; } }
+  .settings--small {
+    padding: 10px; }
+    @media only screen and (min-width: 768px) {
+      .settings--small {
+        display: none; } }
+  .settings .setting {
+    position: relative; }
+  .settings .title {
+    font-size: 30px;
+    margin-bottom: 20px; }
+  .settings_header a {
+    color: #303236; }
+  .settings_header a:hover {
+    text-decoration: none;
+    color: #000; }
+  .settings_header a:link {
+    text-decoration: none;
+    color: #303236; }
+  .settings_header .menu-item {
+    padding: 20px 20px;
+    font-size: 15px;
+    width: 100%;
+    background-color: inherit;
+    letter-spacing: 0.5px; }
+  .settings_header .active-item {
+    background-color: #bbb3;
+    font-weight: bold; }
+  .settings .content {
+    padding: 10px 0 0 70px;
+    position: relative; }
+    @media only screen and (max-width: 767px) {
+      .settings .content {
+        padding: 10px; } }
+    .settings .content--title {
+      font-size: 22px; }
+    .settings .content .edit-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: max-content; }
+      .settings .content .edit-button .button {
+        padding: 10px 20px; }
+
+.info {
+  padding: 10px;
+  display: flex;
+  width: 100%; }
+  @media only screen and (max-width: 767px) {
+    .info {
+      display: block;
+      padding: 5px; } }
+  .info-label {
+    flex: 1;
+    background-image: url("http://res.cloudinary.com/dtqxwjmwn/image/upload/v1535613753/dot.png");
+    background-repeat: repeat-x;
+    background-position-y: center;
+    letter-spacing: 1px; }
+    @media only screen and (max-width: 767px) {
+      .info-label {
+        background: none;
+        font-weight: bold; } }
+    .info-label--white {
+      background-color: #fafafa;
+      width: max-content;
+      padding: 0 0 0 10px;
+      text-transform: uppercase; }
+      @media only screen and (max-width: 400px) {
+        .info-label--white {
+          text-transform: none; } }
+  .info-value {
+    flex: 1;
+    padding: 0 10px; }
+    @media only screen and (max-width: 400px) {
+      .info-value {
+        width: 99%; } }
+
+.support .title {
+  color: #000;
+  font-size: 25px;
+  margin-bottom: 10px; }
+
+.support .contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 30px 0; }
+  @media only screen and (max-width: 767px) {
+    .support .contact-info {
+      display: block; } }
+
+.support .contact-box {
+  padding: 20px;
+  background-color: #eaeaea96;
+  width: 49%; }
+  @media only screen and (max-width: 767px) {
+    .support .contact-box {
+      width: 99%;
+      margin: auto;
+      margin-bottom: 10px; } }
+  .support .contact-box_title {
+    font-weight: bold;
+    font-size: 19px;
+    padding: 15px 0;
+    letter-spacing: 1px; }
+  .support .contact-box_value {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0;
+    letter-spacing: 1px; }
+  .support .contact-box_description {
+    font-size: 12px; }
+
+.settings-modal {
+  position: relative; }
+  .settings-modal .ant-modal-title {
+    font-weight: bold;
+    font-size: 20px; }
+  .settings-modal .modal-footer {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 10px; }
+    .settings-modal .modal-footer .button {
+      width: max-content;
+      padding: 10px;
+      text-transform: uppercase; }
+      @media only screen and (max-width: 400px) {
+        .settings-modal .modal-footer .button {
+          text-transform: none; } }
+    .settings-modal .modal-footer .cancel {
+      color: black;
+      margin-right: 30px;
+      position: relative;
+      top: 10px;
+      cursor: pointer; }
+      .settings-modal .modal-footer .cancel:hover {
+        text-decoration: underline; }
+  .settings-modal .ant-modal-content {
+    padding-bottom: 30px; }
+  .settings-modal .StripeElement {
+    display: block;
+    width: 98%;
+    max-width: 500px;
+    padding: 10px 14px;
+    font-size: 1em;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05) inset;
+    border: 1px solid #d8d4d4;
+    outline: 0;
+    border-radius: 4px;
+    background: white; }
+    .settings-modal .StripeElement:placeholder {
+      color: #aab7c4; }
+    .settings-modal .StripeElement:focus,
+    .settings-modal .StripeElement .StripeElement--focus {
+      box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+      -webkit-transition: all 150ms ease;
+      transition: all 150ms ease; }
+  .settings-modal .stripe {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #bbb; }
+  .settings-modal input,
+  .settings-modal .StripeElement {
+    display: block;
+    width: 98%;
+    max-width: 500px;
+    padding: 10px 14px;
+    font-size: 1em;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05) inset;
+    border: 1px solid #d8d4d4;
+    outline: 0;
+    border-radius: 4px;
+    background: white; }
+    .settings-modal input:placeholder,
+    .settings-modal .StripeElement:placeholder {
+      color: #aab7c4; }
+    .settings-modal input:focus,
+    .settings-modal input .StripeElement--focus,
+    .settings-modal .StripeElement:focus,
+    .settings-modal .StripeElement .StripeElement--focus {
+      box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+      -webkit-transition: all 150ms ease;
+      transition: all 150ms ease; }
+
+.toggle-recurrence {
+  text-decoration: underline;
+  color: #303236;
+  text-transform: uppercase;
+  cursor: pointer; }

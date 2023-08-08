@@ -1,0 +1,187 @@
+.menu {
+  background-color: #fff;
+  text-align: center; }
+  @media only screen and (max-width: 575px) {
+    .menu {
+      display: none; } }
+  @media (min-width: 575px) {
+    .menu-small {
+      display: none; } }
+  .menu-small .header {
+    display: flex;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: white; }
+    .menu-small .header .week {
+      width: 80%; }
+    .menu-small .header .arrow_wrapper {
+      height: 100%;
+      width: 10%;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 15px;
+      text-align: center; }
+      .menu-small .header .arrow_wrapper--right {
+        border-left: 1px solid #bbb; }
+      .menu-small .header .arrow_wrapper--left {
+        border-right: 1px solid #bbb; }
+  @media only screen and (max-width: 767px) {
+    .menu .info-wrapper .ant-affix {
+      top: 0px !important; } }
+  .menu .info-wrapper .dishes {
+    max-width: 1000px;
+    margin: auto !important; }
+
+.menu-header {
+  padding: 10px; }
+  @media only screen and (max-width: 575px) {
+    .menu-header {
+      padding: 1px; } }
+  @media only screen and (max-width: 575px) {
+    .menu-header--large {
+      display: none; } }
+  @media only screen and (min-width: 576px) {
+    .menu-header--small {
+      display: none; } }
+  .menu-header-wrapper {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 12px;
+    text-align: left;
+    position: relative;
+    -webkit-box-shadow: 0px 11px 16px 8px rgba(219, 216, 219, 0.53);
+    -moz-box-shadow: 0px 11px 16px 8px rgba(219, 216, 219, 0.53);
+    box-shadow: 0px 11px 16px 8px rgba(219, 216, 219, 0.53); }
+    @media only screen and (max-width: 767px) {
+      .menu-header-wrapper {
+        margin-bottom: 10px; } }
+  .menu-header--options {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    z-index: 9;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold; }
+    @media only screen and (max-width: 575px) {
+      .menu-header--options {
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        width: 100%;
+        padding: 5px;
+        font-size: 12px;
+        padding-left: 30px; } }
+    .menu-header--optionswrapper {
+      width: max-content;
+      margin: auto;
+      display: flex;
+      background-color: #fff; }
+    .menu-header--optionstext {
+      padding: 10px;
+      font-weight: 200; }
+      @media only screen and (max-width: 575px) {
+        .menu-header--optionstext {
+          color: #2b5390;
+          padding: 10px;
+          font-weight: bold; } }
+    .menu-header--options .button {
+      width: max-content;
+      margin-right: 10px;
+      padding: 10px 30px; }
+      @media only screen and (max-width: 767px) {
+        .menu-header--options .button {
+          padding: 10px; } }
+    .menu-header--options .cancel-button {
+      border: 1px solid white; }
+      @media only screen and (max-width: 575px) {
+        .menu-header--options .cancel-button {
+          color: #2b5390;
+          border: 2px solid #2b5390; } }
+    .menu-header--options .save-button {
+      color: #fff;
+      background-color: #ea6060; }
+  .menu-header--change {
+    color: white;
+    background-color: #2b63aa;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    z-index: 8;
+    position: relative; }
+    @media only screen and (max-width: 575px) {
+      .menu-header--change {
+        text-align: center;
+        padding: 10px 0;
+        position: absolute;
+        width: 100vw; } }
+
+.arrival-information {
+  display: flex; }
+  @media only screen and (max-width: 575px) {
+    .arrival-information {
+      padding-top: 5px; } }
+  .arrival-information .arrival_icon {
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 10px;
+    position: relative;
+    top: 8px; }
+    @media only screen and (max-width: 575px) {
+      .arrival-information .arrival_icon {
+        font-size: 25px;
+        margin-right: 5px;
+        top: 4px; } }
+    .arrival-information .arrival_icon--check {
+      color: green; }
+    .arrival-information .arrival_icon--close {
+      color: red; }
+  .arrival-information .arrival_status {
+    color: #bbb;
+    display: block;
+    font-size: 18px;
+    font-weight: 200; }
+    @media only screen and (max-width: 575px) {
+      .arrival-information .arrival_status {
+        font-size: 16px; } }
+  .arrival-information .arrival_week {
+    font-weight: bold;
+    font-size: 20px; }
+    @media only screen and (max-width: 575px) {
+      .arrival-information .arrival_week {
+        font-size: 18px; } }
+
+.bill {
+  background-color: white;
+  text-align: center;
+  padding: 200px;
+  height: max-content;
+  width: 100%;
+  opacity: 1;
+  z-index: 10; }
+  .bill-wrapper {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 97px;
+    z-index: 9;
+    opacity: 0.5;
+    background-color: white; }
+  .bill-modal {
+    width: 50% !important; }
+    .bill-modal .right {
+      position: absolute;
+      right: 50px; }
+
+.skip_footer {
+  display: flex;
+  text-align: center;
+  width: max-content;
+  margin: auto;
+  margin-top: 10px; }
+  .skip_footer .button {
+    width: 100px;
+    margin-right: 20px; }

@@ -1,0 +1,28 @@
+.delivery-history {
+  max-width: 1170px;
+  padding: 50px 50px 0 50px;
+  margin: auto;
+  position: relative; }
+  @media only screen and (max-width: 575px) {
+    .delivery-history {
+      padding: 20px; } }
+  .delivery-history .dish_card {
+    width: 250px;
+    margin-right: 10px !important; }
+  .delivery-history .menu-items {
+    display: flex; }
+    @media only screen and (max-width: 767px) {
+      .delivery-history .menu-items {
+        overflow-x: scroll; } }
+    @media only screen and (min-width: 768px) {
+      .delivery-history .menu-items {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start; } }
+  .delivery-history .order {
+    position: absolute;
+    top: 50px;
+    right: 50px; }
+    @media only screen and (max-width: 575px) {
+      .delivery-history .order {
+        position: static; } }

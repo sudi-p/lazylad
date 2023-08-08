@@ -1,0 +1,217 @@
+.current-hero {
+  height: 65vh;
+  width: 100%;
+  background-image: url("http://res.cloudinary.com/dtqxwjmwn/image/upload/v1531318376/hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin-top: 5px; }
+  @media only screen and (max-width: 767px) {
+    .current-hero {
+      display: none; } }
+  .current-hero .text {
+    padding: 20px 30px;
+    text-align: center;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 15%;
+    z-index: 2; }
+    .current-hero .text-wrapper {
+      max-width: 1170px;
+      margin: auto; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .current-hero .text {
+        position: static; } }
+    .current-hero .text .title {
+      font-size: 25px;
+      color: black;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin-bottom: 5px; }
+    .current-hero .text .content {
+      margin: 20px 0;
+      font-size: 16px;
+      letter-spacing: 1px; }
+    .current-hero .text .bb-wrapper {
+      width: 235px;
+      margin: auto; }
+
+.current-menu {
+  padding: 40px;
+  position: relative;
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%; }
+  .current-menu .section-title {
+    padding: 5px 2px;
+    border-bottom: 1px solid #e8e0e0;
+    text-transform: uppercase;
+    color: #6a6d75;
+    letter-spacing: 1px;
+    margin-bottom: 10px; }
+  @media only screen and (max-width: 575px) {
+    .current-menu {
+      padding: 15px; } }
+  .current-menu .main {
+    width: 55%; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .current-menu .main {
+        width: 70%; } }
+    @media only screen and (max-width: 767px) {
+      .current-menu .main {
+        width: 100%; } }
+  .current-menu .simple-info {
+    width: 20%; }
+    .current-menu .simple-info .section-title {
+      margin-right: 10px; }
+    @media only screen and (max-width: 1199px) {
+      .current-menu .simple-info {
+        display: none; } }
+    .current-menu .simple-info--sm {
+      width: 100%; }
+      @media only screen and (min-width: 1200px) {
+        .current-menu .simple-info--sm {
+          display: none; } }
+      .current-menu .simple-info--sm .content-text {
+        border: 1px solid #bbb;
+        padding: 10px 30px;
+        width: max-content;
+        border-radius: 4px; }
+        @media only screen and (max-width: 767px) {
+          .current-menu .simple-info--sm .content-text {
+            width: 100%; } }
+  .current-menu .content-text {
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 15px 0; }
+  .current-menu .content-title {
+    color: #0f346c;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 15px 0;
+    cursor: pointer; }
+  .current-menu .new {
+    width: 20%;
+    padding: 0 0 0 20px; }
+    @media only screen and (max-width: 575px) {
+      .current-menu .new {
+        padding: 0; } }
+    @media only screen and (max-width: 1199px) {
+      .current-menu .new {
+        width: 30%; } }
+    @media only screen and (max-width: 767px) {
+      .current-menu .new {
+        width: 100%;
+        border-top: 1px solid #bbb;
+        padding-top: 10px;
+        text-align: center; } }
+    @media only screen and (max-width: 767px) {
+      .current-menu .new .section-title {
+        display: none; } }
+    .current-menu .new .button {
+      height: auto;
+      text-align: center;
+      width: max-content;
+      margin: auto;
+      padding: 10px 25px; }
+    .current-menu .new .image-wrapper {
+      width: 100%; }
+      @media only screen and (max-width: 767px) {
+        .current-menu .new .image-wrapper {
+          width: 60%;
+          margin: auto; } }
+    .current-menu .new .rating {
+      width: 100%; }
+  .current-menu .menu-list {
+    border: 1px solid #dcdbdb;
+    margin: 20px 0px;
+    border-top: none;
+    padding: 10px 60px 10px 10px; }
+    @media only screen and (max-width: 767px) {
+      .current-menu .menu-list {
+        border: none;
+        padding: 10px; } }
+
+.skip-box {
+  height: 201px;
+  position: relative; }
+  .skip-box .background {
+    width: 100%;
+    height: 222px;
+    background-image: url("http://res.cloudinary.com/dtqxwjmwn/image/upload/v1531320890/india-2731817_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.15;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .skip-box .text {
+    padding: 80px 40px 40px 40px; }
+    @media only screen and (max-width: 767px) {
+      .skip-box .text {
+        padding: 40px; } }
+  .skip-box .title {
+    font-size: 22px;
+    color: #0f346c;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 5px; }
+  .skip-box .content {
+    font-size: 15px;
+    color: black;
+    letter-spacing: 1px; }
+
+.current-menu-item .dish_image {
+  width: 100%;
+  height: 130px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media only screen and (max-width: 575px) {
+    .current-menu-item .dish_image {
+      height: 120px; } }
+
+.current-menu-item .details {
+  height: 110px;
+  border-bottom: 1px solid #bbb;
+  text-align: left;
+  margin: 20px; }
+  @media only screen and (max-width: 575px) {
+    .current-menu-item .details {
+      height: 100px; } }
+
+.current-menu-item .description-wrapper {
+  overflow: hidden;
+  height: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 12px; }
+  @media only screen and (max-width: 575px) {
+    .current-menu-item .description-wrapper {
+      display: none; } }
+
+.current-menu-item .row {
+  display: flex; }
+  .current-menu-item .row .col-1 {
+    width: 30%; }
+    @media only screen and (max-width: 575px) {
+      .current-menu-item .row .col-1 {
+        width: 40%; } }
+    @media (min-width: 576px) and (max-width: 767px) {
+      .current-menu-item .row .col-1 {
+        width: 35%; } }
+  .current-menu-item .row .col-2 {
+    width: 70%; }
+    @media (min-width: 576px) and (max-width: 767px) {
+      .current-menu-item .row .col-2 {
+        width: 65%; } }

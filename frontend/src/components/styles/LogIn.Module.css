@@ -1,0 +1,27 @@
+.login {
+  margin: auto;
+  max-width: 350px;
+  padding: 20px 20px 40px 20px;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.35); }
+  @media only screen and (max-width: 575px) {
+    .login {
+      padding: 10px; } }
+  .login-wrapper {
+    background-color: #fafbfc;
+    padding: 60px; }
+    @media only screen and (max-width: 575px) {
+      .login-wrapper {
+        padding: 20px; } }
+  .login--title {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: black; }
+  .login .forgot {
+    position: absolute;
+    top: 4px;
+    right: 4px; }

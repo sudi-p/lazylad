@@ -1,0 +1,64 @@
+.header--small {
+  width: 320px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  padding: 10px;
+  animation-name: moveInRight;
+  animation-duration: 1s; }
+  .header--small .ant-divider {
+    margin: 5px 0; }
+  .header--small a {
+    display: block;
+    font-weight: 400;
+    color: #0f346c;
+    text-decoration: none; }
+  .header--small a.active_item {
+    color: #000;
+    font-weight: 600; }
+  .header--small a:hover {
+    text-decoration: none;
+    color: #6a6d75; }
+  .header--small a:link {
+    text-decoration: none;
+    color: #6a6d75; }
+  .header--small .menu-item {
+    padding: 10px;
+    letter-spacing: 1px;
+    color: #0f346c; }
+    .header--small .menu-item .welcome {
+      color: black;
+      font-size: 15px; }
+    .header--small .menu-item_large {
+      font-size: 17px;
+      color: #0f346c; }
+    .header--small .menu-item_small {
+      font-size: 13px;
+      color: #0f346c; }
+  .header--smallnav {
+    height: 50px;
+    background-color: #ececec; }
+    .header--smallnav .redlentils {
+      position: absolute;
+      top: 5px;
+      margin-left: 20px; }
+      .header--smallnav .redlentils a {
+        font-size: 25px;
+        color: #0f346c; }
+    @media only screen and (min-width: 768px) {
+      .header--smallnav {
+        display: none; } }
+    .header--smallnav .hamburger {
+      font-size: 30px;
+      position: absolute;
+      right: 20px;
+      top: 10px; }
+  .header--small--wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #ffffff3d;
+    z-index: 100; }
